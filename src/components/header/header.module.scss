@@ -1,0 +1,37 @@
+@import"../../styles/colors.module.scss";
+
+
+.containerNavbar{    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.imgLogo{ 
+    width: 170px;
+    height: 70px;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 1rem;
+}
+.buttonGroup{
+    padding: 1rem 2rem;
+}
+.buttonNavbar{
+    color: white;
+    background-color:$transparentGray; 
+    border: none;
+    width: 8rem;
+    height: 70px;
+    cursor: pointer;
+    &:hover{
+       background-color:black;
+       transition: 1s;
+      
+    }
+}
+
+@media(max-width: 767px){
+    .buttonNavbar{
+   margin-left:11px;
+   width: 11rem;
+   }}

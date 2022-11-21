@@ -1,0 +1,29 @@
+.footer{
+  font-family: 'Noto Sans Balinese';
+  background-color: black;
+  display: flex;
+}
+.imgLogo{
+  width: 65px;
+}
+.textFooter{
+    margin-top: 19px;
+}
+
+@media (max-width: 560px){
+  .imgLogo{
+       width: 45px;
+  }
+  .textFooter{
+    font-size: 12px;
+}
+}
+
+@media (max-width: 435px){
+  .imgLogo{
+       width: 40px;
+  }
+  .textFooter{
+    font-size: 52%;
+}
+}

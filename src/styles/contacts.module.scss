@@ -1,0 +1,45 @@
+@import "./colors.module.scss";
+
+.containerContacts{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom , rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.514)), url("../assets/images/faixadaMain.jpg");
+    height:100vh;
+    margin-bottom: 100px;
+} 
+.mainText{
+    padding-top: 55vh;
+}
+.title{
+    font-family: 'Noto Sans Balinese';
+    font-size: 85px;
+}
+.subTitle{
+    font-family: 'Noto Sans Balinese';
+}
+.subTitle2{
+    font-family: 'Noto Sans Balinese';
+}
+.iconWhats{
+    text-align: center;
+    position: fixed;
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+    width: 60px;
+}
+@media(max-width:1024px){
+    .containerContacts{
+        background-image: linear-gradient(to bottom , rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.514)), url("../assets/images/faixadaMainmedium.jpg");
+    }
+}
+
+@media (max-width: 530px){
+    .title{
+        font-size: 50px;
+    }
+    .iconWhats{
+        width: 50px;
+        top: calc(100% - 100px);
+        left: calc(100% - 80px);
+    }
+}

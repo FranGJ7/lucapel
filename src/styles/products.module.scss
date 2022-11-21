@@ -1,0 +1,89 @@
+@import "./colors.module.scss";
+
+.containerHome{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom , rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.514)), url("../assets/images/faixadaMain.jpg");
+    height:100vh;
+}
+.mainText{
+    padding-top: 55vh;
+}
+.title{
+    font-family: 'Noto Sans Balinese';
+    font-size: 85px;
+}
+.subTitle{
+    font-family: 'Noto Sans Balinese';
+}
+.iconWhats{
+    text-align: center;
+    position: fixed;
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+    width: 60px;
+}
+.containerAbout{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.border{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to left, #ffffff, #158307);
+    border-radius: 5px;
+     width: 100%;
+     height: 6px;
+}
+.boxAbout{
+    width: 500px; 
+}
+
+.imgAbout{
+    width: 400px;
+    border-radius: 8px;
+}
+.titleAbout{
+    padding-bottom: 15px;
+    
+    font-family: 'Noto Sans Balinese';
+    color: black;
+}
+.subTitleAbout{
+    font-family: 'Noto Sans Balinese';
+    line-height: 20px;
+    color: black;
+   
+}
+@media(max-width:1024px){
+    .containerHome{
+        background-image: linear-gradient(to bottom , rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.514)), url("../assets/images/faixadaMainmedium.jpg");
+    }
+}
+
+@media (max-width: 530px){
+    .title{
+        font-size: 50px;
+    }
+    .iconWhats{
+        width: 50px;
+        top: calc(100% - 100px);
+        left: calc(100% - 80px);
+    }
+    .subTitleAbout{
+        font-size: 13px;
+    }
+    .imgAbout{
+        width: 250px;
+    }    
+}
+
+
+
+
+

@@ -1,0 +1,74 @@
+@import"../../styles/colors.module.scss";
+
+.infoFooter{ 
+   justify-content: center;
+   padding-bottom: 90px;
+   display: flex; 
+   flex-wrap: wrap-reverse;
+   
+}
+.contactCard{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: $darkGray;
+    font-family: 'Noto Sans Balinese';
+    font-size: 19px;
+    width: 600px;
+    height: 600px;
+    padding-top: 50px;
+    padding-left:50px ;
+}
+.hr{
+    width: 90%; 
+}
+.icon{
+    width: 25px;
+    padding-bottom: 10px;
+}
+.socialMedia{
+    padding-right: 90px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.socialIcon{
+    width: 40px;
+    margin: 20px;
+}
+.googleCard{
+    width: 600px;
+    height: 600px;
+    background-color: #272420;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+}
+.googleMaps{
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+}
+
+
+@media(max-width:1239px){
+   .contactCard, .googleCard{
+    width: 500px;
+    height: 500px;
+    font-size: 15px;
+   }
+}
+
+@media(max-width:1039px){
+    .infoFooter{
+        gap:20px;
+    }
+    .socialIcon{
+        width: 30px;
+        
+    }
+}
+@media(max-width:360px){
+    .contactCard{
+        padding-left:30px ;
+    }
+}
+
+
